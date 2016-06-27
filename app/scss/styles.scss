@@ -1,0 +1,29 @@
+board {
+  display: block;
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  border: 1px solid;
+  -webkit-user-select: none;
+  board-row {
+    display: block;
+    height: 12.5%;
+  }
+  square {
+    display: block;
+    float: left;
+    width: 12.5%;
+    height: 100%;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    &.black {
+      background-color: grey;
+    }
+    piece, piece img {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

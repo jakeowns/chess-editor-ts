@@ -1,0 +1,19 @@
+{
+  "name": "chess-editor",
+  "version": "0.0.0",
+  "authors": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.22",
+    "bootstrap": "~3.3.6",
+    "jquery": "~2.2.0",
+    "jqueryui": "~1.11.4"
+  }
+}
